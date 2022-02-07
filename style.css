@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.card{
+    width: 25%;
+    margin: 0px auto;
+}
+
+#textBox{
+    text-align: center;
+}
+
+#box{
+    height: 80px;
+    border: 5px solid red;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 20px 0;
+
+}
