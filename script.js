@@ -29,8 +29,10 @@ function domanda() {
     for (let i = 0; i < 5; i++) {
         let numeroInserito = parseInt(prompt('inserisci un numero'));
 
-        if (numeroInserito == NaN) {
+
+        if (isNaN(numeroInserito)) {
             numeroInserito = 0;
+            alert('il valore inserito non è valido, il valore sarà di default 0')
         }
 
         console.log(numeroInserito)
@@ -43,7 +45,7 @@ function domanda() {
 	
                 return true
             }
-
+            
             return false
         });  
     }
@@ -105,7 +107,7 @@ let time = setInterval(function() {
         clear(box)
         textBox.innerHTML = 'Inserisci i 5 numeri che hai appena visto'
 
-        setTimeout(domanda, 1000);
+        setTimeout(domanda, 500);
 
     } else {
         
